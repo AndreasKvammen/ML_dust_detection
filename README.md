@@ -1,7 +1,7 @@
 # Machine Learning Detection of Dust Impact Signals Observed by The Solar Orbiter
 This repository contains the code and data to reproduce some of the main results from the paper "Machine Learning Detection of Dust Impact Signals Observed by The Solar Orbiter", freely accessible at https://www.annales.com/
 
-### Abstract
+### Article Abstract
 This article present results from automatic detection of dust impact signals observed by the Solar Orbiter - Radio and Plasma Waves instrument. 
 
 A sharp and characteristic electric field signal is observed by the Radio and Plasma Waves instrument when a dust particle impact the spacecraft at high velocity. In this way, ~5-20 dust impacts are daily detected as the Solar Orbiter travels through the interstellar medium. The dust distribution in the inner solar system is largely uncharted and statistical studies of the detected dust impacts will enhance our understanding of the role of dust in the solar system. 
