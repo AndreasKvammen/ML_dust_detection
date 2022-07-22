@@ -18,7 +18,7 @@ The proposed convolutional neural network classifier (or similar tools) should t
 The folder "Data train and test" contain the training and testing data in .csv format:
   1. Test_data.csv - is the testing data with dimension (600 x 12288), 600 observations consisting of 12288 (3x4096) measurements - 4096 time steps obsevred at 3 antennas. 
   2. Test_labels.csv - is the binary testing labels (1 = dust) and (0 = no dust)
-  3. Train_data.sv - is the training data with dimension (2400x12288), 2400 observaitons conisting of 12288 (3x4096) measurements - 4096 time steps obsevred at 3 antennas. 
+  3. Train_data.csv - is the training data with dimension (2400x12288), 2400 observaitons conisting of 12288 (3x4096) measurements - 4096 time steps obsevred at 3 antennas. 
   4. Train_labels.csv - is the binary training labels (1 = dust) and (0 = no dust)
 
 ## Support Vector Machine (SVM) Classification
