@@ -14,14 +14,26 @@ Overall, we conclude that classification of dust impact signals is a suitable ta
 
 The proposed convolutional neural network classifier (or similar tools) should therefore be considered for post-processing of the electric field signals observed by the Solar Orbiter.  
 
-## Support Vector Machine (SVM) 
-The folder "SVM train and test" contain the data and MatLab code to train and test the Support Vector Machine (SVM) classifier. The folder contain the following files:
+## Training and Testing Data
+The folder "Data train and test" contain the training and testing data in .csv format.  
+
+## Support Vector Machine (SVM) Classification
+The folder "SVM train and test" contain the MatLab code to train and test the Support Vector Machine (SVM) classifier. The folder contain the following files:
   1. extract_SVM_features.m - is the MatLab code to extact the 2D feature vector from the training and testing data.
   2. SVM_dust_detection.m - is the MatLab script to run the training and testing of the SVM, based on the extracted feature vectors. 
   3. SVM_dust_detection.pdf - presents the MatLab code and resulting plots in pdf format 
 
-The SVM acheived a 94\% average class-wise accuracy and a 90\% percision, trained and tested over 10 runs with randomly selected training and testing data sets. 
+The SVM acheived a 94\%± 1\% average class-wise accuracy and a 90\%± 3\% percision, trained and tested over 10 runs with randomly selected training and testing data sets. 
 
-## Convolutional Neural Network (CNN)
+## Convolutional Neural Network (CNN) Classification
+The folder "CNN train and test" contain the data and JupyterLab (Tensorflow) code to train and test the Convolutional Neural Network (CNN) classifier, proposed for time series classification in Wang et al. (2017). The folder contain the following files:
+  1. CNN_dust_detection.ipynb - Jupyter Notebook that import the training and testing data and runs the training and testing of the CNN classifier. 
+  2. run_GitHub.h5 - is the trained model in .h5 format 
+  3. model_run_GitHub - is a folder containing the trained model in .pb format 
 
-## Solar Orbiter Data Classification Using the CNN 
+The CNN acheived a 96\%± 1\% overall classification accuracy and a 94\%± 2\% percision, trained and tested over 10 runs with randomly selected training and testing data sets.
+
+## CNN Classification Triggered Snapshot WaveForm (TSWF) data 
+The folder "SVM train and test" contain the MatLab code to
+
+## Dust Impact Rates 
