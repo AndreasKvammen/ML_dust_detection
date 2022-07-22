@@ -15,6 +15,12 @@ Overall, we conclude that classification of dust impact signals is a suitable ta
 The proposed convolutional neural network classifier (or similar tools) should therefore be considered for post-processing of the electric field signals observed by the Solar Orbiter.  
 
 ## Support Vector Machine (SVM) 
+The folder "SVM train and test" contain the data and MatLab code to train and test the Support Vector Machine (SVM) classifier. The folder contain the following files:
+  1. extract_SVM_features.m - is the MatLab code to extact the 2D feature vector from the training and testing data.
+  2. SVM_dust_detection.m - is the MatLab script to run the training and testing of the SVM, based on the extracted feature vectors. 
+  3. SVM_dust_detection.pdf - presents the MatLab code and resulting plots in pdf format 
+
+The SVM acheived a 94\% average class-wise accuracy and a 90\% percision, trained and tested over 10 runs with randomly selected training and testing data sets. 
 
 ## Convolutional Neural Network (CNN)
 
