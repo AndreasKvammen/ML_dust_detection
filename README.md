@@ -45,5 +45,7 @@ The folder "CDF file classification" contain the trained CNN classifier and the 
   3. classify_file.m - is a MatLab function that classifies a .cdf file 
   4. preprocess_cdf.m - is a MatLab function that import the .cdf file and preprocess it for classification
   5. preprocess_signal.m - is a MatLab function that performs the 4-step pre processing proceedure 
+  6. cdf_CNN_classifier.pdf - presents the MatLab code and resulting plots in pdf format
 
 ## Dust Impact Rates 
+The folder "Dust impact rates" contain the
