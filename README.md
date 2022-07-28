@@ -58,3 +58,7 @@ model from Zaslavsky et al. (2021) with an included offset
   6. dust_impact_rates.pdf - presents the MatLab code and resulting plots in pdf format
 
 ## References
+Wang, Z., Yan,W., and Oates, T.: Time series classification from scratch with deep neural networks: A strong baseline, in: 2017 International
+joint conference on neural networks (IJCNN), pp. 1578–1585, IEEE, 2017.
+
+Zaslavsky, A., Mann, I., Soucek, J., Czechowski, A., Píša, D., Vaverka, J., Meyer-Vernet, N., Maksimovic, M., Lorfèvre, E., Issautier, K., et al.: First dust measurements with the Solar Orbiter Radio and Plasma Wave instrument, Astronomy & Astrophysics, 656, A30, 2021.
