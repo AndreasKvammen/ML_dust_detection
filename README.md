@@ -38,6 +38,9 @@ The folder "CNN train and test" contain the data and JupyterLab (Tensorflow) cod
 The CNN acheived a 96\%± 1\% overall classification accuracy and a 94\%± 2\% percision, trained and tested over 10 runs with randomly selected training and testing data sets.
 
 ## CNN Classification Triggered Snapshot WaveForm (TSWF) data 
-The folder "SVM train and test" contain the MatLab code to
+The folder "CDF file classification" contain the trained CNN classifier and the MatLab code to classify the Triggered Snapshot WaveForm (TSWF) data product (.cdf files). A sample script and the needed functions are included in order to classify a sample (.cdf) file "solo_L2_rpw-tds-surv-tswf-e_20211004_V01.cdf". The folder contain the following files: 
+  1. model_run_GitHub - is a folder containing the trained model in .pb format
+  2. solo_L2_rpw-tds-surv-tswf-e_20211004_V01.cdf - is a file sample, downloaded from \url{https://rpw.lesia.obspm.fr/roc/data/pub/solo/rpw/data/L2/tds_wf_e/}
+  2. cdf_CNN_classifier - 
 
 ## Dust Impact Rates 
