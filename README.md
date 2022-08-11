@@ -1,5 +1,5 @@
 # Machine Learning Detection of Dust Impact Signals Observed by The Solar Orbiter
-This repository contains the code and data to reproduce some of the main results from the paper "Machine Learning Detection of Dust Impact Signals Observed by The Solar Orbiter", freely accessible at https://www.annales.com/
+This repository contains the code and data to reproduce some of the main results from the paper "Machine Learning Detection of Dust Impact Signals Observed by The Solar Orbiter", freely accessible at https://egusphere.copernicus.org/preprints/2022/egusphere-2022-725/
 
 ### Article Abstract
 This article present results from automatic detection of dust impact signals observed by the Solar Orbiter - Radio and Plasma Waves instrument. 
