@@ -1,4 +1,5 @@
 # Machine Learning Detection of Dust Impact Signals Observed by The Solar Orbiter
+Digital Object Identifier (DOI) for this repository: DOI: 10.5281/zenodo.7404457
 This repository contains the code and data to reproduce some of the main results from the paper "Machine Learning Detection of Dust Impact Signals Observed by The Solar Orbiter", freely accessible at https://egusphere.copernicus.org/preprints/2022/egusphere-2022-725/
 
 ### Article Abstract
