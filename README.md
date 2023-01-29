@@ -1,7 +1,7 @@
 # Machine Learning Detection of Dust Impact Signals Observed by The Solar Orbiter
 Digital Object Identifier (DOI) for this repository: https://doi.org/10.5281/zenodo.7404457
 
-This repository contains the code and data to reproduce some of the main results from the paper "Machine Learning Detection of Dust Impact Signals Observed by The Solar Orbiter", freely accessible at https://angeo.copernicus.org/articles/41/69/2023/angeo-41-69-2023.html
+This repository contains the code and data to reproduce some of the main results from the paper "Machine learning detection of dust impact signals observed by the Solar Orbiter", freely accessible at https://angeo.copernicus.org/articles/41/69/2023/angeo-41-69-2023.html
 
 ### Article Abstract
 This article present results from automatic detection of dust impact signals observed by the Solar Orbiter - Radio and Plasma Waves instrument. 
