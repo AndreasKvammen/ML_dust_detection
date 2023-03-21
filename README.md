@@ -5,7 +5,7 @@ This repository contains the code and data to reproduce some of the main results
 
 <img src="https://angeo.copernicus.org/articles/41/69/2023/angeo-41-69-2023-f09.png" width="300" height="300">
 
-![image](ariclecover.png)
+![ariclecover](ariclecover.png)
 
 ### Article Abstract
 This article present results from automatic detection of dust impact signals observed by the Solar Orbiter - Radio and Plasma Waves instrument. 
