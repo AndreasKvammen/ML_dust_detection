@@ -4,14 +4,6 @@
 This repository contains the code and data to reproduce some of the main results from the paper "Machine learning detection of dust impact signals observed by the Solar Orbiter", freely accessible at https://angeo.copernicus.org/articles/41/69/2023/angeo-41-69-2023.html
 
 <img src="https://angeo.copernicus.org/articles/41/69/2023/angeo-41-69-2023-f09.png" width="300" height="300">
-
-## Installation 
-The scripts and functions in this repository can be used on you local machine by downloading a clone of this repository using: git clone https://github.com/AndreasKvammen/ML_dust_detection.git
-
-This recuires: 
- - GitHub (for cloning the repository)
- - Python, Jupyter and Tensorflow working together on you local machine (for Convolutional Neural Network (CNN) Classification)
- - MatLab (for Support Vector Machine (SVM) Classification, CNN Classification Triggered Snapshot WaveForm (TSWF) data and Dust impact rates), including the additional function subplot_tight that can be downloaded at: https://www.mathworks.com/matlabcentral/fileexchange/30884-controllable-tight-subplot
  
 ### Article Abstract
 This article present results from automatic detection of dust impact signals observed by the Solar Orbiter - Radio and Plasma Waves instrument. 
@@ -25,6 +17,14 @@ In this article, we propose a novel machine learning-based framework for detecti
 Overall, we conclude that classification of dust impact signals is a suitable task for supervised machine learning techniques. In particular, the convolutional neural network achieves a 96% $\pm$ 1% overall classification accuracy and 94\% $\pm$ 2\% dust detection precision, a significant improvement to the currently used on-board classifier with 85\% overall classification accuracy and 75\% dust detection precision. In addition, both the support vector machine and the convolutional neural network detects more dust particles (on average) than the on-board classification algorithm, with 14\% $\pm$ 1\% and 16\% $\pm$ 7\% detection enhancement respectively.
 
 The proposed convolutional neural network classifier (or similar tools) should therefore be considered for post-processing of the electric field signals observed by the Solar Orbiter.  
+
+## Installation 
+The scripts and functions in this repository can be used on you local machine by downloading a clone of this repository using: git clone https://github.com/AndreasKvammen/ML_dust_detection.git
+
+This recuires: 
+ - GitHub (for cloning the repository)
+ - Python, Jupyter and Tensorflow working together on you local machine (for Convolutional Neural Network (CNN) Classification)
+ - MatLab (for Support Vector Machine (SVM) Classification, CNN Classification Triggered Snapshot WaveForm (TSWF) data and Dust impact rates), including the additional function subplot_tight that can be downloaded at: https://www.mathworks.com/matlabcentral/fileexchange/30884-controllable-tight-subplot
 
 ## Training and Testing Data
 The folder "Data train and test" contain the training and testing data in .csv format:
