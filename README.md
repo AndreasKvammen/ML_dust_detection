@@ -25,7 +25,7 @@ git clone https://github.com/AndreasKvammen/ML_dust_detection.git
 This recuires: 
  - GitHub (for cloning the repository)
  - Python, Jupyter and Tensorflow working together on you local machine (for Convolutional Neural Network (CNN) Classification)
- - MatLab (for Support Vector Machine (SVM) Classification, CNN Classification Triggered Snapshot WaveForm (TSWF) data and Dust impact rates), including the additional function subplot_tight that can be downloaded at: https://www.mathworks.com/matlabcentral/fileexchange/30884-controllable-tight-subplot
+ - MatLab (for Support Vector Machine (SVM) Classification, CNN Classification of Triggered Snapshot WaveForm (TSWF) data and Dust impact rates), including the additional function subplot_tight that can be downloaded at: https://www.mathworks.com/matlabcentral/fileexchange/30884-controllable-tight-subplot
 
 ## Training and Testing Data
 The folder "Data train and test" contain the training and testing data in .csv format:
@@ -50,7 +50,7 @@ The folder "CNN train and test" contain the data and JupyterLab (Tensorflow) cod
 
 The CNN achieved a 96\%± 1\% overall classification accuracy and a 94\%± 2\% precision, trained and tested over 10 runs with randomly selected training and testing data sets.
 
-## CNN Classification Triggered Snapshot WaveForm (TSWF) data 
+## CNN Classification of Triggered Snapshot WaveForm (TSWF) data 
 The folder "CDF file classification" contain the trained CNN classifier and the MatLab code to classify the Triggered Snapshot WaveForm (TSWF) data product (.cdf files). A sample script and the needed functions are included in order to classify a sample (.cdf) file "solo_L2_rpw-tds-surv-tswf-e_20211004_V01.cdf". The folder contain the following files: 
   1. model_run_GitHub - is a folder containing the trained model in .pb format
   2. solo_L2_rpw-tds-surv-tswf-e_20211004_V01.cdf - is a sample file containing all triggered waveforms from October 4th, 2021, downloaded from https://rpw.lesia.obspm.fr/roc/data/pub/solo/rpw/data/L2/tds_wf_e/
