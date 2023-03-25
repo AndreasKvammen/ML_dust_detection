@@ -19,7 +19,8 @@ Overall, we conclude that classification of dust impact signals is a suitable ta
 The proposed convolutional neural network classifier (or similar tools) should therefore be considered for post-processing of the electric field signals observed by the Solar Orbiter.  
 
 ## Installation 
-The scripts and functions in this repository can be used on you local machine by downloading a clone of this repository using: git clone https://github.com/AndreasKvammen/ML_dust_detection.git
+The scripts and functions in this repository can be used on you local machine by downloading a clone of this repository using: 
+git clone https://github.com/AndreasKvammen/ML_dust_detection.git
 
 This recuires: 
  - GitHub (for cloning the repository)
