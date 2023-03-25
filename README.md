@@ -5,6 +5,14 @@ This repository contains the code and data to reproduce some of the main results
 
 <img src="https://angeo.copernicus.org/articles/41/69/2023/angeo-41-69-2023-f09.png" width="300" height="300">
 
+## Installation 
+The scripts and functions in this repository can be used on you local machine by downloading a clone of this repository using: git clone https://github.com/AndreasKvammen/ML_dust_detection.git
+
+This recuires: 
+ - GitHub (for cloning the repository)
+ - Python, Jupyter and Tensorflow working together on you local machine (for Convolutional Neural Network (CNN) Classification)
+ - MatLab (for Support Vector Machine (SVM) Classification, CNN Classification Triggered Snapshot WaveForm (TSWF) data and Dust impact rates), including the additional function subplot_tight that can be downloaded at: https://www.mathworks.com/matlabcentral/fileexchange/30884-controllable-tight-subplot
+ 
 ### Article Abstract
 This article present results from automatic detection of dust impact signals observed by the Solar Orbiter - Radio and Plasma Waves instrument. 
 
