@@ -72,7 +72,7 @@ model from Zaslavsky et al. (2021) with an included offset
 
 ## Citation
 Please, consider citing the original paper if you are using this library in your reasearch
-
+```
 @article{kvammen2023machine,
   author = {Kvammen, A. and Wickstr{\o}m, K. and Kociscak, S. and Vaverka, J. and Nouzak, L. and Zaslavsky, A. and Rackovic Babic, K. and Gjelsvik, A. and Pisa, D. and Soucek, J. and Mann, I.},
   title = {Machine learning detection of dust impact signals observed by the Solar Orbiter},
@@ -84,7 +84,7 @@ Please, consider citing the original paper if you are using this library in your
   url = {https://angeo.copernicus.org/articles/41/69/2023/},
   doi = {10.5194/angeo-41-69-2023}
 }
-
+```
 ## References
 Wang, Z., Yan,W., and Oates, T.: Time series classification from scratch with deep neural networks: A strong baseline, in: 2017 International
 joint conference on neural networks (IJCNN), pp. 1578–1585, IEEE, 2017.
