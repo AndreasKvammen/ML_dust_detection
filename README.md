@@ -43,7 +43,7 @@ The folder "SVM train and test" contain the MatLab code to train and test the Su
 The SVM achieved a 94\%± 1\% average class-wise accuracy and a 90\%± 3\% precision, trained and tested over 10 runs with randomly selected training and testing data sets. 
 
 ## Convolutional Neural Network (CNN) Classification
-The folder "CNN train and test" contain the data and JupyterLab (Tensorflow) code to train and test the Convolutional Neural Network (CNN) classifier, proposed for time series classification in Wang et al. (2017). The folder contain the following files:
+The folder "CNN train and test" contain the JupyterLab (Tensorflow) code to train and test the Convolutional Neural Network (CNN) classifier, proposed for time series classification in Wang et al. (2017). The folder contain the following files:
   1. CNN_dust_detection.ipynb - Jupyter Notebook that import the training and testing data and runs the training and testing of the CNN classifier. 
   2. run_GitHub.h5 - is the trained model in .h5 format 
   3. model_run_GitHub - is a folder containing the trained model in .pb format 
