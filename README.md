@@ -28,14 +28,14 @@ This recuires:
  - MatLab - the results were produced using MatLab2022b (for Support Vector Machine (SVM) Classification, CNN Classification of Triggered Snapshot WaveForm (TSWF) data and Dust impact rates), including the additional function subplot_tight that can be downloaded at: https://www.mathworks.com/matlabcentral/fileexchange/30884-controllable-tight-subplot
 
 ## Training and Testing Data
-The folder "Data train and test" contain the training and testing data in .csv format:
+The folder "Data_train_and_test" contain the training and testing data in .csv format:
   1. Test_data.csv - is the testing data with dimension (600 x 12288), 600 observations consisting of 12288 (3x4096) measurements - 4096 time steps observed at 3 antennas. 
   2. Test_labels.csv - is the binary testing labels with dimension (600x1) where the values (1 = dust) and (0 = no dust)
   3. Train_data.csv - is the training data with dimension (2400x12288), 2400 observations consisting of 12288 (3x4096) measurements - 4096 time steps observed at 3 antennas. 
   4. Train_labels.csv - is the binary training labels with dimension (2400x1) where the values (1 = dust) and (0 = no dust)
 
 ## Support Vector Machine (SVM) Classification
-The folder "SVM train and test" contain the MatLab code to train and test the Support Vector Machine (SVM) classifier. The folder contain the following files:
+The folder "SVM_train_and_test" contain the MatLab code to train and test the Support Vector Machine (SVM) classifier. The folder contain the following files:
   1. extract_SVM_features.m - is the MatLab code to extract the 2D feature vector from the training and testing data.
   2. SVM_dust_detection.m - is the MatLab script to run the training and testing of the SVM, based on the extracted feature vectors. 
   3. SVM_dust_detection.pdf - presents the MatLab code and resulting plots in pdf format 
@@ -43,7 +43,7 @@ The folder "SVM train and test" contain the MatLab code to train and test the Su
 The SVM achieved a 94\%± 1\% average class-wise accuracy and a 90\%± 3\% precision, trained and tested over 10 runs with randomly selected training and testing data sets. 
 
 ## Convolutional Neural Network (CNN) Classification
-The folder "CNN train and test" contain the JupyterLab (Tensorflow) code to train and test the Convolutional Neural Network (CNN) classifier, proposed for time series classification in Wang et al. (2017). The folder contain the following files:
+The folder "CNN_train_and_test" contain the JupyterLab (Tensorflow) code to train and test the Convolutional Neural Network (CNN) classifier, proposed for time series classification in Wang et al. (2017). The folder contain the following files:
   1. CNN_dust_detection.ipynb - Jupyter Notebook that import the training and testing data and runs the training and testing of the CNN classifier. 
   2. run_GitHub.h5 - is the trained model in .h5 format 
   3. model_run_GitHub - is a folder containing the trained model in .pb format 
@@ -51,7 +51,7 @@ The folder "CNN train and test" contain the JupyterLab (Tensorflow) code to trai
 The CNN achieved a 96\%± 1\% overall classification accuracy and a 94\%± 2\% precision, trained and tested over 10 runs with randomly selected training and testing data sets.
 
 ## CNN Classification of Triggered Snapshot WaveForm (TSWF) data 
-The folder "CDF file classification" contain the trained CNN classifier and the MatLab code to classify the Triggered Snapshot WaveForm (TSWF) data product (.cdf files). A sample script and the needed functions are included in order to classify a sample (.cdf) file "solo_L2_rpw-tds-surv-tswf-e_20211004_V01.cdf". The folder contain the following files: 
+The folder "CDF_file_classification" contain the trained CNN classifier and the MatLab code to classify the Triggered Snapshot WaveForm (TSWF) data product (.cdf files). A sample script and the needed functions are included in order to classify a sample (.cdf) file "solo_L2_rpw-tds-surv-tswf-e_20211004_V01.cdf". The folder contain the following files: 
   1. model_run_GitHub - is a folder containing the trained model in .pb format
   2. solo_L2_rpw-tds-surv-tswf-e_20211004_V01.cdf - is a sample file containing all triggered waveforms from October 4th, 2021, downloaded from https://rpw.lesia.obspm.fr/roc/data/pub/solo/rpw/data/L2/tds_wf_e/
   2. cdf_CNN_classifier.m - is a MatLab script that automatically classifies the triggered waveforms, contained in file "solo_L2_rpw-tds-surv-tswf-e_20211004_V01.cdf", and plots the classifycation results using the trained CNN classifier in folder "model_run_GitHub" 
@@ -61,7 +61,7 @@ The folder "CDF file classification" contain the trained CNN classifier and the 
   6. cdf_CNN_classifier.pdf - presents the MatLab code and resulting plots in pdf format
 
 ## Dust Impact Rates 
-The folder "Dust impact rates" contain the MatLab script and files to reproduce the daily dust impact rates (Figure 11 from the article)
+The folder "Dust_impact_rates" contain the MatLab script and files to reproduce the daily dust impact rates (Figure 11 from the article)
   1. dust_impact_rates.m - is a MatLab script to read the daily dust count (classified by the TDS, SVM and CNN approach) and convert it to impact rates using the RPW-TDS duty cycle. The script plots the daily impact rates along with the associated fit using the dust flux
 model from Zaslavsky et al. (2021) with an included offset
   2. TDS_ddc.txt - is a table containing the date and the daily dust count using the TDS approach
