@@ -70,6 +70,21 @@ model from Zaslavsky et al. (2021) with an included offset
   5. fits.csv - is a table containing the date, the RPW-TDS duty cycle and the TDS/SVM/CNN fit to data using the dust flux model from Zaslavsky et al. (2021) with an included offset
   6. dust_impact_rates.pdf - presents the MatLab code and resulting plots in pdf format
 
+## Citation
+Please, consider citing the original paper if you are using this library in your reasearch
+
+@article{kvammen2023machine,
+  author = {Kvammen, A. and Wickstr{\o}m, K. and Kociscak, S. and Vaverka, J. and Nouzak, L. and Zaslavsky, A. and Rackovic Babic, K. and Gjelsvik, A. and Pisa, D. and Soucek, J. and Mann, I.},
+  title = {Machine learning detection of dust impact signals observed by the Solar Orbiter},
+  journal = {Annales Geophysicae},
+  volume = {41},
+  year = {2023},
+  number = {1},
+  pages = {69--86},
+  url = {https://angeo.copernicus.org/articles/41/69/2023/},
+  doi = {10.5194/angeo-41-69-2023}
+}
+
 ## References
 Wang, Z., Yan,W., and Oates, T.: Time series classification from scratch with deep neural networks: A strong baseline, in: 2017 International
 joint conference on neural networks (IJCNN), pp. 1578–1585, IEEE, 2017.
