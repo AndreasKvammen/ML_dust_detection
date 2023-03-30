@@ -24,7 +24,7 @@ git clone https://github.com/AndreasKvammen/ML_dust_detection.git
 
 This recuires: 
  - GitHub (for cloning the repository)
- - Python, Jupyter and Tensorflow working together on you local machine (for Convolutional Neural Network (CNN) Classification)
+ - Python, Jupyter and Tensorflow working together on you local machine (for Convolutional Neural Network (CNN) Classification). For this work, Python 3.10.9, Jupyter Lab 3.5.3 and Tensorflow 2.9.0 was used. 
  - MatLab - the results were produced using MatLab2022b (for Support Vector Machine (SVM) Classification, CNN Classification of Triggered Snapshot WaveForm (TSWF) data and Dust impact rates), including the additional function subplot_tight that can be downloaded at: https://www.mathworks.com/matlabcentral/fileexchange/30884-controllable-tight-subplot
 
 ## Training and Testing Data
