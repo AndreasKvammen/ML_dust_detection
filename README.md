@@ -6,15 +6,15 @@ This repository contains the code and data to reproduce some of the main results
 <img src="https://angeo.copernicus.org/articles/41/69/2023/angeo-41-69-2023-f09.png" width="300" height="300">
  
 ### Article Abstract
-This article present results from automatic detection of dust impact signals observed by the Solar Orbiter - Radio and Plasma Waves instrument. 
+This article presents results from automatic detection of dust impact signals observed by the Solar Orbiter - Radio and Plasma Waves instrument. 
 
-A sharp and characteristic electric field signal is observed by the Radio and Plasma Waves instrument when a dust particle impact the spacecraft at high velocity. In this way, ~5-20 dust impacts are daily detected as the Solar Orbiter travels through the interstellar medium. The dust distribution in the inner solar system is largely uncharted and statistical studies of the detected dust impacts will enhance our understanding of the role of dust in the solar system. 
+A sharp and characteristic electric field signal is observed by the Radio and Plasma Waves instrument when a dust particle impacts the spacecraft at high velocity. In this way, ~5-20 dust impacts are daily detected as the Solar Orbiter travels through the interstellar medium. The dust distribution in the inner solar system is largely uncharted and statistical studies of the detected dust impacts will enhance our understanding of the role of dust in the solar system. 
 
 It is however challenging to automatically detect and separate dust signals from the plural of other signal shapes for two main reasons. Firstly, since the spacecraft charging causes variable shapes of the impact signals and secondly because electromagnetic waves (such as solitary waves) may induce resembling electric field signals.
 
 In this article, we propose a novel machine learning-based framework for detection of dust impacts. We consider two different supervised machine learning approaches: the support vector machine classifier and the convolutional neural network classifier. Furthermore, we compare the performance of the machine learning classifiers to the currently used on-board classification algorithm and analyze one and a half year of Radio and Plasma Waves instrument data.
 
-Overall, we conclude that classification of dust impact signals is a suitable task for supervised machine learning techniques. In particular, the convolutional neural network achieves a 96% $\pm$ 1% overall classification accuracy and 94\% $\pm$ 2\% dust detection precision, a significant improvement to the currently used on-board classifier with 85\% overall classification accuracy and 75\% dust detection precision. In addition, both the support vector machine and the convolutional neural network detects more dust particles (on average) than the on-board classification algorithm, with 14\% $\pm$ 1\% and 16\% $\pm$ 7\% detection enhancement respectively.
+Overall, we conclude that classification of dust impact signals is a suitable task for supervised machine learning techniques. In particular, the convolutional neural network achieves a 96% $\pm$ 1% overall classification accuracy and 94\% $\pm$ 2\% dust detection precision, a significant improvement to the currently used on-board classifier with 85\% overall classification accuracy and 75\% dust detection precision. In addition, both the support vector machine and the convolutional neural network detect more dust particles (on average) than the on-board classification algorithm, with 14\% $\pm$ 1\% and 16\% $\pm$ 7\% detection enhancement respectively.
 
 The proposed convolutional neural network classifier (or similar tools) should therefore be considered for post-processing of the electric field signals observed by the Solar Orbiter.  
 
@@ -22,9 +22,9 @@ The proposed convolutional neural network classifier (or similar tools) should t
 The scripts and functions in this repository can be used on you local machine by downloading a clone of this repository using: <br />
 git clone https://github.com/AndreasKvammen/ML_dust_detection.git
 
-This recuires: 
+This requires: 
  - GitHub (for cloning the repository)
- - Python, Jupyter and Tensorflow working together on you local machine (for Convolutional Neural Network (CNN) Classification). For this work, Python 3.10.9, Jupyter Lab 3.5.3 and Tensorflow 2.9.0 was used. 
+ - Python, Jupyter and Tensorflow working together on your local machine (for Convolutional Neural Network (CNN) Classification). For this work, Python 3.10.9, Jupyter Lab 3.5.3 and Tensorflow 2.9.0 were used. 
  - MatLab - the results were produced using MatLab2022b (for Support Vector Machine (SVM) Classification, CNN Classification of Triggered Snapshot WaveForm (TSWF) data and Dust impact rates), including the additional function subplot_tight that can be downloaded at: https://www.mathworks.com/matlabcentral/fileexchange/30884-controllable-tight-subplot
 
 ## Training and Testing Data
@@ -54,9 +54,9 @@ The CNN achieved a 96\%± 1\% overall classification accuracy and a 94\%± 2\% p
 The folder "CDF_file_classification" contains the trained CNN classifier and the MatLab code to classify the Triggered Snapshot WaveForm (TSWF) data product (.cdf files). A sample script and the needed functions are included in order to classify a sample (.cdf) file "solo_L2_rpw-tds-surv-tswf-e_20211004_V01.cdf". The folder contains the following files: 
   1. model_run_GitHub - is a folder containing the trained model in .pb format
   2. solo_L2_rpw-tds-surv-tswf-e_20211004_V01.cdf - is a sample file containing all triggered waveforms from October 4th, 2021, downloaded from https://rpw.lesia.obspm.fr/roc/data/pub/solo/rpw/data/L2/tds_wf_e/
-  2. cdf_CNN_classifier.m - is a MatLab script that automatically classifies the triggered waveforms, contained in file "solo_L2_rpw-tds-surv-tswf-e_20211004_V01.cdf", and plots the classifycation results using the trained CNN classifier in folder "model_run_GitHub" 
+  2. cdf_CNN_classifier.m - is a MatLab script that automatically classifies the triggered waveforms, contained in file "solo_L2_rpw-tds-surv-tswf-e_20211004_V01.cdf", and plots the classification results using the trained CNN classifier in folder "model_run_GitHub" 
   3. classify_file.m - is a MatLab function that classifies a .cdf file 
-  4. preprocess_cdf.m - is a MatLab function that import the .cdf file and pre-process it for classification
+  4. preprocess_cdf.m - is a MatLab function that imports the .cdf file and pre-process it for classification
   5. preprocess_signal.m - is a MatLab function that performs the 4-step pre-processing procedure 
   6. cdf_CNN_classifier.pdf - presents the MatLab code and resulting plots in pdf format
 
@@ -71,7 +71,7 @@ model from Zaslavsky et al. (2021) with an included offset
   6. dust_impact_rates.pdf - presents the MatLab code and resulting plots in pdf format
 
 ## Citation
-Please, consider citing the original paper if you are using this library in your reasearch
+Please, consider citing the original paper if you are using this library in your research
 ```
 @article{kvammen2023machine,
   author = {Kvammen, A. and Wickstr{\o}m, K. and Kociscak, S. and Vaverka, J. and Nouzak, L. and Zaslavsky, A. and Rackovic Babic, K. and Gjelsvik, A. and Pisa, D. and Soucek, J. and Mann, I.},
